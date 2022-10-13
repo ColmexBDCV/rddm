@@ -1,0 +1,54 @@
+<template id="maps">
+    <div class="">
+        <!--<div style="background-color: rgb(245 245 245); width: 100%; border-bottom: 5px solid #5E002B;">
+            <div class="container">
+                <headers :keyword="search" :search_in="search_in" is_page="true"></headers>
+            </div>
+        </div>-->
+        <div class="" style="height: 100%;">
+            <div class="">
+                <div class="row">
+                    <div class="col">
+                        <div class="title">                           
+                            <h2><span class="material-symbols-outlined">
+                                pin_drop
+                            </span>Mapa de Notas de Prensa</h2>
+                        </div>
+                        <div class="mb-5">
+                            El mapa de notas periodísticas permite visualizar el área geográfica a la que se refieren las notas que forman parte del acervo de RDDM y que fueron recolectadas, por las entidades aportantes, de distintas fuentes y proyectos de investigación.
+                        </div>
+                    </div>
+                    <!--<div id="map" ref="map">
+            
+                    </div>-->
+                    <div>                        
+                        <div style="background-color: whitesmoke;">
+                            <div v-if="visible" id="loadtmp" class="align-middle text-center" style="position: absolute; z-index: 2000; background: #000000a6;
+                            color: white; width: 100%; height: 600px;">
+                                <img src="/wp-content/uploads/2022/07/location_2.gif" style="width: 30%;"/>
+                                <p class="fs-2">Obteniendo Ubicación de  Notas</p>
+                            </div>                                                     
+                            <div id="maps" ref="maps" style="height: 600px; width: 75%; float:left">
+            
+                            </div>
+                            <div style="width: 25%; float: left; background-color: #FFFFFF; min-height: 600px; max-height: 600px; overflow-y: scroll;">
+                                <ul id="item-list" class="map-list">
+                                                           
+                                </ul>                            
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="mt-5">
+                        <a href="/busqueda/#/search?type=resource_type_sim&val=Nota%20de%20prensa&label=Tipo%20de%20documento">Ver listado completo de las notas de prensa.</a>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+            

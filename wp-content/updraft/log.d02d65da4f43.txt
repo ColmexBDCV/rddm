@@ -1,0 +1,528 @@
+0000.000 (0) Opened log file at time: Thu, 11 Aug 2022 16:35:21 +0000 on https://rddm.mx
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 8.0.21 (apache2handler, Linux rddm 5.15.0-41-generic #44~20.04.1-Ubuntu SMP Fri Jun 24 13:27:29 UTC 2022 x86_64) MySQL: 8.0.30-0ubuntu0.20.04.2 (max packet size=67108864) WPLANG: es_ES Server: Apache/2.4.54 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.5M | 32M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 76807.3 MB
+0000.019 (0) Deleting old log file: log.86e65bf46b6f.txt
+0000.022 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.031 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.046 (0) Set semaphore last lock (fd) time to 2022-08-11 16:35:21
+0000.049 (0) Semaphore lock (fd) complete
+0000.060 (0) Backup run: resumption=0, nonce=d02d65da4f43, file_nonce=d02d65da4f43 begun at=1660235721 (0s ago), job type=backup
+0000.066 (0) Scheduling a resumption (1) after 300 seconds (1660236021) in case this run gets aborted
+0000.096 (0) Checking if we have a zip executable available
+0000.103 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.106 (0) Creation of backups of directories: beginning
+0000.117 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.706 (0) Total entities for the zip file: 1905 directories, 9360 files (0 skipped as non-modified), 186.4 MB
+0000.716 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 190918 KB, split: 409600 KB)
+0000.732 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.737 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.742 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.746 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.751 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.754 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.758 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.761 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.766 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.770 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.773 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.777 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.780 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0000.784 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0000.788 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0000.792 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0000.796 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0000.800 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0000.805 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0000.808 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0000.812 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0000.816 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0000.820 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0000.824 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0000.828 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0000.832 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0000.835 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0000.839 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0000.843 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0000.846 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0000.850 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0000.853 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0000.857 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0000.860 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0000.867 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0000.870 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0000.874 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0000.877 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0000.885 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0000.890 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0000.894 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0000.900 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0000.905 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0000.909 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0000.914 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0000.919 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4600 files added (on-disk size: 0 KB)
+0000.923 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4700 files added (on-disk size: 0 KB)
+0000.930 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4800 files added (on-disk size: 0 KB)
+0000.934 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 4900 files added (on-disk size: 0 KB)
+0000.939 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5000 files added (on-disk size: 0 KB)
+0000.944 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5100 files added (on-disk size: 0 KB)
+0000.948 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5200 files added (on-disk size: 0 KB)
+0000.953 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5300 files added (on-disk size: 0 KB)
+0000.958 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5400 files added (on-disk size: 0 KB)
+0000.961 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5500 files added (on-disk size: 0 KB)
+0000.966 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5600 files added (on-disk size: 0 KB)
+0000.969 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5700 files added (on-disk size: 0 KB)
+0000.972 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5800 files added (on-disk size: 0 KB)
+0000.976 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 5900 files added (on-disk size: 0 KB)
+0000.981 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6000 files added (on-disk size: 0 KB)
+0000.985 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6100 files added (on-disk size: 0 KB)
+0000.992 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6200 files added (on-disk size: 0 KB)
+0000.996 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6300 files added (on-disk size: 0 KB)
+0001.000 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6400 files added (on-disk size: 0 KB)
+0001.005 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6500 files added (on-disk size: 0 KB)
+0001.008 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6600 files added (on-disk size: 0 KB)
+0001.013 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6700 files added (on-disk size: 0 KB)
+0001.016 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6800 files added (on-disk size: 0 KB)
+0001.021 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 6900 files added (on-disk size: 0 KB)
+0001.025 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7000 files added (on-disk size: 0 KB)
+0001.030 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7100 files added (on-disk size: 0 KB)
+0001.034 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7200 files added (on-disk size: 0 KB)
+0001.038 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7300 files added (on-disk size: 0 KB)
+0001.043 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7400 files added (on-disk size: 0 KB)
+0001.048 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7500 files added (on-disk size: 0 KB)
+0001.053 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7600 files added (on-disk size: 0 KB)
+0001.058 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7700 files added (on-disk size: 0 KB)
+0001.061 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7800 files added (on-disk size: 0 KB)
+0001.066 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 7900 files added (on-disk size: 0 KB)
+0001.072 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8000 files added (on-disk size: 0 KB)
+0001.076 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8100 files added (on-disk size: 0 KB)
+0001.080 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8200 files added (on-disk size: 0 KB)
+0001.141 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8300 files added (on-disk size: 0 KB)
+0001.150 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8400 files added (on-disk size: 0 KB)
+0001.156 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8500 files added (on-disk size: 0 KB)
+0001.161 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8600 files added (on-disk size: 0 KB)
+0001.164 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8700 files added (on-disk size: 0 KB)
+0001.173 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8800 files added (on-disk size: 0 KB)
+0001.178 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 8900 files added (on-disk size: 0 KB)
+0001.182 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 9000 files added (on-disk size: 0 KB)
+0001.186 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 9100 files added (on-disk size: 0 KB)
+0001.191 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 9200 files added (on-disk size: 0 KB)
+0001.195 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.tmp: 9300 files added (on-disk size: 0 KB)
+0098.019 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.list-temp.tmp)
+0098.036 (0) Successfully created zip file manifest (size: 735676)
+0098.605 (0) Created plugins zip (0) - 65396.9 KB in 98.5 s (664 KB/s) (sha1: d2900235c6424065e7bac4cb17e6aa3eea4da9d8, sha256: dc638ba001cf457f17bc59fc734b1066d3a269d1c55782914c5f34c9a7e70ce6)
+0098.614 (0) Beginning creation of dump of themes (split every: 400 MB)
+0098.638 (0) Total entities for the zip file: 55 directories, 328 files (0 skipped as non-modified), 6.7 MB
+0098.643 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 6879.2 KB, split: 409600 KB)
+0098.647 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0098.652 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0098.657 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0099.163 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip.list-temp.tmp)
+0099.168 (0) Successfully created zip file manifest (size: 22368)
+0099.211 (0) Created themes zip (0) - 3313.8 KB in 0.6 s (5589.8 KB/s) (sha1: a1d25e9f3f6433b95c065029c25e4c1976acd03c, sha256: 1203d46d4abfbde7f28684d284c1b561d7e5076eacaec6dffe714fbe5c38b51b)
+0099.220 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0099.225 (0) Looking for candidates to backup in: /var/www/rddm.mx/html/wp-content/uploads
+0099.228 (0) finding files: astra-sites: adding to list (1)
+0099.232 (0) finding files: elementor: adding to list (2)
+0099.236 (0) finding files: 2020: adding to list (3)
+0099.239 (0) finding files: essential-addons-elementor: adding to list (4)
+0099.242 (0) finding files: premium-addons-elementor: adding to list (5)
+0099.246 (0) finding files: wpforms: adding to list (6)
+0099.249 (0) finding files: 2022: adding to list (7)
+0099.254 (0) finding files: 2021: adding to list (8)
+0099.259 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0099.301 (0) Total entities for the zip file: 36 directories, 1059 files (0 skipped as non-modified), 2183 MB
+0099.307 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0099.312 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 25 MB added on this batch (27.9 MB, 1059 files batched, 188 (188) added so far); re-opening (prior size: 0 KB)
+0100.506 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.4 s, rate: 17856.5 KB/s)
+0100.515 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6022140979767, normalised_time=1.4336536425658, max_time=100.50995278358, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0100.523 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.tmp: 200 files added (on-disk size: 28298.2 KB)
+0100.528 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.tmp: 300 files added (on-disk size: 28298.2 KB)
+0100.533 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.tmp: 400 files added (on-disk size: 28298.2 KB)
+0100.540 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.tmp: 500 files added (on-disk size: 28298.2 KB)
+0100.550 (0) [Warning] Se ha encontrado un archivo muy grande: uploads/2022/03/EL-AGUA-HABLARA-02-Señales-desde-el-Sur-MASTER.wav (tamaño: 673.2 MB)
+0100.554 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (870.3 MB, 1059 files batched, 339 (527) added so far); re-opening (prior size: 28298.2 KB)
+0141.711 (0) A useful amount of data was added after this amount of zip processing: 41.8 s (normalised: 9.6 s, rate: 21317.5 KB/s)
+0141.734 (0) Zip size is at/near split limit (829.5 MB / 400 MB) - bumping index (from: 0)
+0149.059 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.list-temp.tmp)
+0149.063 (0) Successfully created zip file manifest (size: 30858)
+0149.072 (0) Created uploads zip (0) - 849372.1 KB in 42.5 s (19996.7 KB/s) (checksums: sha1: 2f945d72ff7dfe39f93de7d1974b57f7a86dd003, sha256: b4d578ce8ca9a31d03ba00dcea04379f65c8e6a98a7097770e344596769ff050)
+0149.081 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (528) files added so far); re-opening (prior size: 0 KB)
+0149.095 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip.tmp: 600 files added (on-disk size: 16.5 KB)
+0149.103 (0) [Warning] Se ha encontrado un archivo muy grande: uploads/2022/03/EL-AGUA-HABLARA-01-Todo-fluye-menos-la-búsqueda-MASTER.wav (tamaño: 712.2 MB)
+0149.107 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (809.7 MB, 1059 files batched, 79 (607) added so far); re-opening (prior size: 16.5 KB)
+0188.857 (0) A useful amount of data was added after this amount of zip processing: 40 s (normalised: 9.9 s, rate: 20752.8 KB/s)
+0188.869 (0) Zip size is at/near split limit (743.1 MB / 400 MB) - bumping index (from: 1)
+0195.317 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip.list-temp.tmp)
+0195.325 (0) Successfully created zip file manifest (size: 4950)
+0195.333 (0) Created uploads zip (1) - 760937.9 KB in 39.8 s (19116 KB/s) (checksums: sha1: 39fd889942e42021ff55409c2bd1597e5dd5997f, sha256: d297bad52728700a66f52c93cf32846dca7a0e8f879fb9217f751c4ff4e1500e)
+0195.343 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (608) files added so far); re-opening (prior size: 0 KB)
+0195.362 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip.tmp: 700 files added (on-disk size: 135.7 KB)
+0195.367 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip.tmp: 800 files added (on-disk size: 135.7 KB)
+0195.372 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 200 MB added on this batch (276.5 MB, 1059 files batched, 264 (872) added so far); re-opening (prior size: 135.7 KB)
+0206.646 (0) A useful amount of data was added after this amount of zip processing: 11.7 s (normalised: 8.5 s, rate: 24112 KB/s)
+0206.691 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip.tmp: 900 files added (on-disk size: 271351.4 KB)
+0206.717 (0) Adding batch to zip file (UpdraftPlus_PclZip): possibly approaching split limit (152.5 MB, 53 (925) files added so far); last ratio: 0.958; re-opening (prior size: 271351.4 KB)
+0213.457 (0) Zip size is at/near split limit (400.1 MB / 400 MB) - bumping index (from: 2)
+0216.885 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip.list-temp.tmp)
+0216.889 (0) Successfully created zip file manifest (size: 19927)
+0216.898 (0) Created uploads zip (2) - 409739.7 KB in 18.1 s (22608.5 KB/s) (checksums: sha1: 99665dbf36e10dbef2499a953b410bb994c203e1, sha256: 2ee80fc7d16d27cb37ef57a7bfd3352bf9837a73662e06215481e1ea79635b14)
+0216.911 (0) Adding batch to zip file (UpdraftPlus_PclZip): over 2.0 seconds have passed since the last write (0 MB, 1 (926) files added so far); re-opening (prior size: 0 KB)
+0216.925 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip.tmp: 1000 files added (on-disk size: 38.5 KB)
+0218.955 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip.list-temp.tmp)
+0218.962 (0) Successfully created zip file manifest (size: 8192)
+0219.361 (0) Created uploads zip (3) - 44371.8 KB in 2.5 s (18047 KB/s) (sha1: d981f6883e308bba0242e3d5e8ad4298337a516d, sha256: 668b8b8f6de04048300e3a919890209f834eaf6943c2366bba2e2eb96d6699c6)
+0219.373 (0) Beginning backup of other directories found in the content directory (index: 0)
+0219.378 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0219.383 (0) Looking for candidates to backup in: /var/www/rddm.mx/html/wp-content
+0219.389 (0) finding files: index.php-old: adding to list (1)
+0219.394 (0) finding files: themes: skipping: this is the themes directory
+0219.398 (0) finding files: index.php: adding to list (2)
+0219.404 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0219.408 (0) finding files: languages: adding to list (3)
+0219.412 (0) finding files: plugins: skipping: this is the plugins directory
+0219.416 (0) finding files: updraft: skipping: this is the updraft directory
+0219.420 (0) finding files: uploads: skipping: this is the uploads directory
+0219.424 (0) finding files: languages-old: adding to list (4)
+0219.428 (0) finding files: upgrade: skipping: excluded by options
+0219.431 (0) finding files: uploads-old: adding to list (5)
+0219.448 (0) Total entities for the zip file: 7 directories, 238 files (0 skipped as non-modified), 12.3 MB
+0219.452 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 12637.8 KB, split: 409600 KB)
+0219.457 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0219.462 (0) Zip: backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0220.202 (0) Creating zip file manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip.list-temp.tmp)
+0220.207 (0) Successfully created zip file manifest (size: 15069)
+0220.255 (0) Created others zip (0) - 3581.9 KB in 0.8 s (4369.7 KB/s) (sha1: b8da859327675446fd694b2ed026011d0591b166, sha256: 44cc867967f7a4075bcc2db5dfa1b1ce568830f7e2b587c676bacbfea59938ca)
+0220.277 (0) Saving backup status to database (elements: 11)
+0220.287 (0) Beginning creation of database dump (WordPress DB)
+0220.292 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0220.307 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0220.559 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1589 bytes total)
+0220.563 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0220.653 (0) Table wp_options: Total expected rows (approximate): 1459
+0220.796 (0) Table wp_options: Rows added in this batch (next record: 523866): 1432 (uncompressed bytes in this segment=5932244) in 0.21 seconds
+0220.816 (0) Table wp_options: finishing file(s) (2, 651.8 KB)
+0220.838 (0) Table wp_users: Total expected rows (via COUNT): 4
+0220.845 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0220.854 (0) Table wp_users: Rows added in this batch (next record: 60): 4 (uncompressed bytes in this segment=2047) in 0.03 seconds
+0220.870 (0) Table wp_users: finishing file(s) (2, 0.9 KB)
+0220.891 (0) Table wp_usermeta: Total expected rows (via COUNT): 89
+0220.895 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0220.904 (0) Table wp_usermeta: Rows added in this batch (next record: 343): 89 (uncompressed bytes in this segment=40368) in 0.02 seconds
+0220.925 (0) Table wp_usermeta: finishing file(s) (2, 5.5 KB)
+0220.950 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 31
+0220.954 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0220.965 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1241): 31 (uncompressed bytes in this segment=14890) in 0.03 seconds
+0220.983 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.7 KB)
+0221.012 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0221.022 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=629) in 0.02 seconds
+0221.037 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0221.051 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0221.055 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.066 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=716) in 0.02 seconds
+0221.078 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0221.096 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 81
+0221.100 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0221.110 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3696): 81 (uncompressed bytes in this segment=8036) in 0.02 seconds
+0221.126 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0221.150 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0221.159 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.02 seconds
+0221.177 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0221.193 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0221.203 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1842) in 0.01 seconds
+0221.216 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0221.239 (0) Table wp_links: Total expected rows (via COUNT): 0
+0221.243 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1456) in 0.01 seconds
+0221.257 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0221.266 (0) Table wp_postmeta: Total expected rows (approximate): 10081
+0222.521 (0) Table wp_postmeta: binary mysqldump finished (writes: 76, bytes 44998346, return code 0) in 1.25 seconds
+0222.530 (0) Table wp_postmeta: finishing file(s) (1, 5281.6 KB)
+0222.558 (0) Table wp_posts: Total expected rows (via COUNT): 1401
+0223.048 (0) Table wp_posts: Rows added in this batch (next record: 1727): 1401 (uncompressed bytes in this segment=18478434) in 0.51 seconds
+0223.066 (0) Table wp_posts: finishing file(s) (2, 3011.3 KB)
+0223.078 (0) Table wp_term_relationships: Total expected rows (approximate): 15
+0223.086 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 16 (uncompressed bytes in this segment=891) in 0.01 seconds
+0223.098 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0223.116 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0223.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0223.126 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=1049) in 0.02 seconds
+0223.141 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0223.158 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0223.165 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=682) in 0.01 seconds
+0223.181 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0223.192 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0223.196 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0223.204 (0) Table wp_terms: Rows added in this batch (next record: 5): 4 (uncompressed bytes in this segment=886) in 0.01 seconds
+0223.216 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0223.231 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0223.240 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.01 seconds
+0223.252 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0223.274 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0223.278 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.01 seconds
+0223.291 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0223.307 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0223.312 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1006) in 0.01 seconds
+0223.325 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0223.353 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0223.360 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=802) in 0.02 seconds
+0223.378 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0223.401 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0223.404 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0223.412 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 102): 5 (uncompressed bytes in this segment=1085) in 0.02 seconds
+0223.432 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0223.440 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/rddm.mx/html/wp-content/updraft/backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz (line 1884, wp-content/plugins/updraftplus/backup.php)
+0223.448 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_options.table.tmpr523867.gz (1/21/fopen): adding to final database dump
+0223.456 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0223.459 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_users.table.tmpr61.gz (3/21/fopen): adding to final database dump
+0223.462 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0223.465 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_usermeta.table.tmpr344.gz (5/21/fopen): adding to final database dump
+0223.469 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0223.473 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_actions.table.tmpr1242.gz (7/21/fopen): adding to final database dump
+0223.479 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_actions.table.gz (8/21/fopen): adding to final database dump
+0223.484 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/21/fopen): adding to final database dump
+0223.488 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_claims.table.gz (10/21/fopen): adding to final database dump
+0223.492 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/21/fopen): adding to final database dump
+0223.497 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_groups.table.gz (12/21/fopen): adding to final database dump
+0223.501 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_logs.table.tmpr3697.gz (13/21/fopen): adding to final database dump
+0223.505 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_actionscheduler_logs.table.gz (14/21/fopen): adding to final database dump
+0223.510 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_commentmeta.table.tmpr0.gz (15/21/fopen): adding to final database dump
+0223.514 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_commentmeta.table.gz (16/21/fopen): adding to final database dump
+0223.519 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_comments.table.tmpr0.gz (17/21/fopen): adding to final database dump
+0223.524 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_comments.table.gz (18/21/fopen): adding to final database dump
+0223.528 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_links.table.tmpr0.gz (19/21/fopen): adding to final database dump
+0223.532 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_links.table.gz (20/21/fopen): adding to final database dump
+0223.535 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_postmeta.table.gz (21/21/fopen): adding to final database dump
+0223.570 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_posts.table.tmpr1728.gz (22/21/fopen): adding to final database dump
+0223.591 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_posts.table.gz (23/21/fopen): adding to final database dump
+0223.595 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_term_relationships.table.tmpr100001.gz (24/21/fopen): adding to final database dump
+0223.599 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_term_relationships.table.gz (25/21/fopen): adding to final database dump
+0223.602 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_term_taxonomy.table.tmpr6.gz (26/21/fopen): adding to final database dump
+0223.605 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_term_taxonomy.table.gz (27/21/fopen): adding to final database dump
+0223.609 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_termmeta.table.tmpr0.gz (28/21/fopen): adding to final database dump
+0223.612 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_termmeta.table.gz (29/21/fopen): adding to final database dump
+0223.616 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_terms.table.tmpr6.gz (30/21/fopen): adding to final database dump
+0223.619 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_terms.table.gz (31/21/fopen): adding to final database dump
+0223.622 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_e_events.table.tmpr0.gz (32/21/fopen): adding to final database dump
+0223.626 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_e_events.table.gz (33/21/fopen): adding to final database dump
+0223.629 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_litespeed_url.table.tmpr0.gz (34/21/fopen): adding to final database dump
+0223.633 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_litespeed_url.table.gz (35/21/fopen): adding to final database dump
+0223.637 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_litespeed_url_file.table.tmpr0.gz (36/21/fopen): adding to final database dump
+0223.641 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_litespeed_url_file.table.gz (37/21/fopen): adding to final database dump
+0223.644 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_wpforms_logs.table.tmpr0.gz (38/21/fopen): adding to final database dump
+0223.648 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_wpforms_logs.table.gz (39/21/fopen): adding to final database dump
+0223.653 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_wpforms_tasks_meta.table.tmpr103.gz (40/21/fopen): adding to final database dump
+0223.656 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db-table-wp_wpforms_tasks_meta.table.gz (41/21/fopen): adding to final database dump
+0223.684 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz: finished writing out complete database file (8960.2 KB)
+0223.781 (0) Total database tables backed up: 21 (backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz, size: 9175355, sha1: b2a59cbdc879dbce9c66d5497e75aad0aa5aed17, sha256: 349323d3972b500f0a3c85e3947ff89d2b21b213bcd423d49c501275fab72e0e)
+0223.800 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0223.804 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0223.808 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0223.813 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0223.816 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0223.820 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0223.823 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip: others: This file has not yet been successfully uploaded: will queue
+0223.826 (0) backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz: db: This file has not yet been successfully uploaded: will queue
+0223.829 (0) Saving backup history. Total backup size: 2 GB
+0223.837 (0) Requesting upload of the files that have not yet been successfully uploaded (8)
+0223.850 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0223.855 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4412f1cff1c64ab733c3947d7ef571f9)
+0226.242 (0) Google Drive: quota usage: used=2760.3 MB, total=15360 MB, available=12599.7 MB
+0226.247 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0226.914 (0) Googledrive chunked upload: 1.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0227.329 (0) Googledrive chunked upload: 4.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0227.816 (0) Googledrive chunked upload: 11 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0228.355 (0) Googledrive chunked upload: 23.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 30.7 / 76)
+0229.507 (0) Googledrive chunked upload: 48.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 30.7 / 76)
+0231.728 (0) Googledrive chunked upload: 98.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 30.7 / 76)
+0232.994 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0233.007 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip uploaded in 6.76 seconds
+0233.011 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip
+0233.025 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip: OK
+0233.030 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-plugins.zip.list.tmp)
+0233.370 (0) Google Drive: quota usage: used=2824.1 MB, total=15360 MB, available=12535.9 MB
+0233.376 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0234.059 (0) Googledrive chunked upload: 30.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0234.532 (0) Googledrive chunked upload: 92.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0235.733 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0235.747 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip uploaded in 2.37 seconds
+0235.750 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip
+0235.759 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip: OK
+0235.762 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-themes.zip.list.tmp)
+0236.024 (0) Google Drive: quota usage: used=2827.4 MB, total=15360 MB, available=12532.6 MB
+0236.029 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0236.763 (0) Googledrive chunked upload: 0.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0237.134 (0) Googledrive chunked upload: 0.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0237.604 (0) Googledrive chunked upload: 0.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0238.295 (0) Googledrive chunked upload: 1.8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 30.7 / 76)
+0239.281 (0) Googledrive chunked upload: 3.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 30.7 / 76)
+0241.092 (0) Googledrive chunked upload: 7.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 30.7 / 76)
+0244.293 (0) Googledrive chunked upload: 15.3 % uploaded (133169152)
+0248.213 (0) Googledrive chunked upload: 23 % uploaded (200278016)
+0251.708 (0) Googledrive chunked upload: 30.7 % uploaded (267386880)
+0254.950 (0) The scheduled resumption is within 45 seconds - will reschedule
+0254.959 (0) Rescheduling resumption 1: moving to 345 seconds from now (1660236321)
+0254.974 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0254.977 (0) Googledrive chunked upload: 38.5 % uploaded (334495744)
+0258.298 (0) Googledrive chunked upload: 46.2 % uploaded (401604608)
+0261.499 (0) Googledrive chunked upload: 53.9 % uploaded (468713472)
+0264.519 (0) Googledrive chunked upload: 61.6 % uploaded (535822336)
+0267.559 (0) Googledrive chunked upload: 69.3 % uploaded (602931200)
+0270.910 (0) Googledrive chunked upload: 77 % uploaded (670040064)
+0273.676 (0) Googledrive chunked upload: 84.8 % uploaded (737148928)
+0276.783 (0) Googledrive chunked upload: 92.5 % uploaded (804257792)
+0281.208 (0) Googledrive chunked upload: 100 % uploaded (804257792)
+0281.224 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip uploaded in 45.19 seconds
+0281.229 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip
+0281.325 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip: OK
+0281.338 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads.zip.list.tmp)
+0281.608 (0) Google Drive: quota usage: used=3656.8 MB, total=15360 MB, available=11703.2 MB
+0281.613 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0282.314 (0) Googledrive chunked upload: 0.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0282.722 (0) Googledrive chunked upload: 0.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0283.193 (0) Googledrive chunked upload: 0.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0283.757 (0) Googledrive chunked upload: 2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 30.7 / 76)
+0284.665 (0) Googledrive chunked upload: 4.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 30.7 / 76)
+0286.457 (0) Googledrive chunked upload: 8.5 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 30.7 / 76)
+0289.373 (0) Googledrive chunked upload: 17.1 % uploaded (133169152)
+0293.268 (0) Googledrive chunked upload: 25.7 % uploaded (200278016)
+0295.983 (0) Googledrive chunked upload: 34.3 % uploaded (267386880)
+0299.319 (0) Googledrive chunked upload: 42.9 % uploaded (334495744)
+0302.304 (0) Googledrive chunked upload: 51.5 % uploaded (401604608)
+0305.591 (0) Googledrive chunked upload: 60.2 % uploaded (468713472)
+0308.668 (0) Googledrive chunked upload: 68.8 % uploaded (535822336)
+0311.772 (0) Googledrive chunked upload: 77.4 % uploaded (602931200)
+0315.066 (0) The time we have been running (315.1) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.074 (0) Googledrive chunked upload: 86 % uploaded (670040064)
+0318.114 (0) The time we have been running (318.1) is approaching the resumption interval (346) - increasing resumption interval to 349
+0318.123 (0) Googledrive chunked upload: 94.6 % uploaded (737148928)
+0320.767 (0) The time we have been running (320.8) is approaching the resumption interval (349) - increasing resumption interval to 351
+0320.774 (0) Googledrive chunked upload: 100 % uploaded (737148928)
+0320.786 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip uploaded in 39.17 seconds
+0320.790 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip
+0320.911 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip: OK
+0320.916 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads2.zip.list.tmp)
+0321.219 (0) Google Drive: quota usage: used=4400 MB, total=15360 MB, available=10960 MB
+0321.224 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0321.907 (0) The time we have been running (321.9) is approaching the resumption interval (351) - increasing resumption interval to 352
+0321.914 (0) Googledrive chunked upload: 0.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0322.373 (0) The time we have been running (322.4) is approaching the resumption interval (352) - increasing resumption interval to 353
+0322.381 (0) Googledrive chunked upload: 0.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0322.824 (0) Googledrive chunked upload: 1.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0323.329 (0) The time we have been running (323.3) is approaching the resumption interval (353) - increasing resumption interval to 354
+0323.338 (0) Googledrive chunked upload: 3.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 30.7 / 76)
+0324.268 (0) The time we have been running (324.3) is approaching the resumption interval (354) - increasing resumption interval to 355
+0324.277 (0) Googledrive chunked upload: 7.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 30.7 / 76)
+0326.244 (0) The time we have been running (326.2) is approaching the resumption interval (355) - increasing resumption interval to 357
+0326.253 (0) Googledrive chunked upload: 15.7 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 30.7 / 76)
+0329.501 (0) The time we have been running (329.5) is approaching the resumption interval (357) - increasing resumption interval to 360
+0329.511 (0) Googledrive chunked upload: 31.7 % uploaded (133169152)
+0332.548 (0) The time we have been running (332.5) is approaching the resumption interval (360) - increasing resumption interval to 363
+0332.556 (0) Googledrive chunked upload: 47.7 % uploaded (200278016)
+0335.605 (0) The time we have been running (335.6) is approaching the resumption interval (363) - increasing resumption interval to 366
+0335.613 (0) Googledrive chunked upload: 63.7 % uploaded (267386880)
+0339.488 (0) The time we have been running (339.5) is approaching the resumption interval (366) - increasing resumption interval to 370
+0339.497 (0) Googledrive chunked upload: 79.7 % uploaded (334495744)
+0342.652 (0) The time we have been running (342.6) is approaching the resumption interval (370) - increasing resumption interval to 373
+0342.661 (0) Googledrive chunked upload: 95.7 % uploaded (401604608)
+0344.320 (0) The time we have been running (344.3) is approaching the resumption interval (373) - increasing resumption interval to 375
+0344.328 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0344.342 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip uploaded in 23.11 seconds
+0344.346 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip
+0344.455 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip: OK
+0344.460 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads3.zip.list.tmp)
+0344.739 (0) Google Drive: quota usage: used=4800.1 MB, total=15360 MB, available=10559.9 MB
+0344.744 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0345.470 (0) The time we have been running (345.5) is approaching the resumption interval (375) - increasing resumption interval to 376
+0345.480 (0) Googledrive chunked upload: 2.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0345.892 (0) Googledrive chunked upload: 6.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0346.348 (0) The time we have been running (346.3) is approaching the resumption interval (376) - increasing resumption interval to 377
+0346.357 (0) Googledrive chunked upload: 16.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0346.920 (0) Googledrive chunked upload: 34.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 30.7 / 76)
+0347.628 (0) The time we have been running (347.6) is approaching the resumption interval (377) - increasing resumption interval to 378
+0347.636 (0) Googledrive chunked upload: 71.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 30.7 / 76)
+0349.041 (0) The time we have been running (349) is approaching the resumption interval (378) - increasing resumption interval to 380
+0349.049 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0349.061 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip uploaded in 4.31 seconds
+0349.064 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip
+0349.081 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip: OK
+0349.085 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-uploads4.zip.list.tmp)
+0349.317 (0) Google Drive: quota usage: used=4843.4 MB, total=15360 MB, available=10516.6 MB
+0349.321 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0349.921 (0) Googledrive chunked upload: 28.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0350.340 (0) The time we have been running (350.3) is approaching the resumption interval (380) - increasing resumption interval to 381
+0350.348 (0) Googledrive chunked upload: 85.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0351.278 (0) The time we have been running (351.3) is approaching the resumption interval (381) - increasing resumption interval to 382
+0351.289 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0351.304 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip uploaded in 1.98 seconds
+0351.309 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip
+0351.318 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip: OK
+0351.322 (0) Deleting zip manifest (backup_2022-08-11-1635_RDDM_d02d65da4f43-others.zip.list.tmp)
+0351.684 (0) Google Drive: quota usage: used=4846.9 MB, total=15360 MB, available=10513.1 MB
+0351.689 (0) Google Drive: backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz: Attempting to upload to Google Drive (into folder id: 1jlWI7IP6JtqLAKOy1juJDzK0kvaTeLqp)
+0352.386 (0) The time we have been running (352.4) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.395 (0) Googledrive chunked upload: 11.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 30.7 / 76)
+0352.795 (0) Googledrive chunked upload: 34.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 30.7 / 76)
+0353.232 (0) The time we have been running (353.2) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.240 (0) Googledrive chunked upload: 80 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 30.7 / 76)
+0354.361 (0) The time we have been running (354.3) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.368 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0354.380 (0) Google Drive: OK: Archive backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz uploaded in 2.69 seconds
+0354.384 (0) Recording as successfully uploaded: backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz
+0354.393 (0) Deleting local file: backup_2022-08-11-1635_RDDM_d02d65da4f43-db.gz: OK
+0354.405 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0354.409 (0) Number of backup sets in history: 4; groups (db): 1
+0354.412 (0) Examining (for databases) backup set with group_id=0, nonce=d02d65da4f43, datestamp=1660235721 (Aug 11 2022 16:35:21)
+0354.416 (0) This backup set is the backup set just made, so will not be deleted.
+0354.416 (0) Examining (for databases) backup set with group_id=0, nonce=86e65bf46b6f, datestamp=1648742247 (Mar 31 2022 15:57:27)
+0354.416 (0) This backup set (1648742247) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0354.416 (0) Examining (for databases) backup set with group_id=0, nonce=24d1a9861e1e, datestamp=1598845721 (Aug 31 2020 03:48:41)
+0354.416 (0) 1598845721: db: this set includes a database (backup_2020-08-31-0348_RDDM_24d1a9861e1e-db.gz); db count is now 2
+0354.416 (0) 1598845721: db: over retain limit (2); will delete this database
+0354.416 (0) Delete file: backup_2020-08-31-0348_RDDM_24d1a9861e1e-db.gz, service=googledrive
+0355.025 (0) Google Drive: backup_2020-08-31-0348_RDDM_24d1a9861e1e-db.gz: Deletion failed: file was not found
+0355.043 (0) The time we have been running (355) is approaching the resumption interval (385) - increasing resumption interval to 386
+0355.051 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0355.055 (0) Examining (for databases) backup set with group_id=0, nonce=7845d551b42c, datestamp=1598556353 (Aug 27 2020 19:25:53)
+0355.055 (0) This backup set (1598556353) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0355.055 (0) Number of backup sets in history: 4; groups (files): 1
+0355.058 (0) Examining (for files) backup set with nonce=d02d65da4f43, datestamp=1660235721 (Aug 11 2022 16:35:21)
+0355.058 (0) This backup set is the backup set just made, so will not be deleted.
+0355.062 (0) This backup set is the backup set just made, so will not be deleted.
+0355.062 (0) This backup set is the backup set just made, so will not be deleted.
+0355.062 (0) This backup set is the backup set just made, so will not be deleted.
+0355.062 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0355.065 (0) Examining (for files) backup set with nonce=86e65bf46b6f, datestamp=1648742247 (Mar 31 2022 15:57:27)
+0355.065 (0) This backup set (1648742247) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0355.065 (0) This backup set (1648742247) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0355.065 (0) This backup set (1648742247) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0355.065 (0) This backup set (1648742247) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0355.065 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0355.065 (0) Examining (for files) backup set with nonce=24d1a9861e1e, datestamp=1598845721 (Aug 31 2020 03:48:41)
+0355.065 (0) plugins: over retain limit (2); will delete this file entity
+0355.065 (0) themes: over retain limit (2); will delete this file entity
+0355.065 (0) uploads: over retain limit (2); will delete this file entity
+0355.065 (0) others: over retain limit (2); will delete this file entity
+0355.065 (0) Delete file: backup_2020-08-31-0348_RDDM_24d1a9861e1e-plugins.zip, service=googledrive
+0355.071 (0) Delete file: backup_2020-08-31-0348_RDDM_24d1a9861e1e-themes.zip, service=googledrive
+0355.075 (0) Delete file: backup_2020-08-31-0348_RDDM_24d1a9861e1e-uploads.zip, service=googledrive
+0355.078 (0) Deleting local copy (backup_2020-08-31-0348_RDDM_24d1a9861e1e-uploads.zip)
+0355.083 (0) Delete file: backup_2020-08-31-0348_RDDM_24d1a9861e1e-others.zip, service=googledrive
+0355.430 (0) Google Drive: backup_2020-08-31-0348_RDDM_24d1a9861e1e-plugins.zip: Deletion failed: file was not found
+0355.434 (0) Google Drive: backup_2020-08-31-0348_RDDM_24d1a9861e1e-themes.zip: Deletion failed: file was not found
+0355.438 (0) Google Drive: backup_2020-08-31-0348_RDDM_24d1a9861e1e-uploads.zip: Deletion failed: file was not found
+0355.441 (0) Google Drive: backup_2020-08-31-0348_RDDM_24d1a9861e1e-others.zip: Deletion failed: file was not found
+0355.451 (0) This backup set is now empty; will remove from history
+0355.455 (0) Corresponding log file (log.24d1a9861e1e.txt) not found - must have already been deleted
+0355.459 (0) Examining (for files) backup set with nonce=7845d551b42c, datestamp=1598556353 (Aug 27 2020 19:25:53)
+0355.459 (0) This backup set (1598556353) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0355.459 (0) This backup set (1598556353) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0355.459 (0) This backup set (1598556353) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0355.459 (0) This backup set (1598556353) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0355.459 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0355.464 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0355.478 (0) Resume backup (d02d65da4f43, 0): finish run
+0355.491 (0) Decremented the semaphore (fd) by 1
+0355.499 (0) Semaphore (fd) unlocked
+0355.502 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0355.514 (0) The backup apparently succeeded (with warnings) and is now complete
+0355.519 (0) No email will/can be sent - the user has not configured an email address.
+0355.524 (0) La copia de seguridad al parecer tuvo éxito (con advertencias) y se ha completado

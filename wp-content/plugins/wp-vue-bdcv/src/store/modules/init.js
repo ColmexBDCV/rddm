@@ -1,0 +1,57 @@
+export default {
+    namespaced: true,
+    state: {
+        repo: '',
+        base_url: 'https://repositorio.colmex.mx/',
+        link_url: "https://repositorio.colmex.mx/catalog?f%5thematic_collection_sim%5D%5B%5D=RDDM",
+        share_url: "https://rddm.mx/busqueda/#/docs",
+        url: "https://repositorio.colmex.mx/catalog.json?f%5Bthematic_collection_sim%5D%5B%5D=RDDM",
+        //url: "https://repositorio.colmex.mx/catalog.json?f[project_tesim][]=test_eime",
+        video_url: "http://biblio-rep.colmex.mx/catalog.json?f[project_tesim][]=test_video",
+        modalFacets: false
+    },
+    mutations: {
+        set_repo(state, repo) {
+			 state.repo = repo;
+        },
+        set_url(state, url){
+            state.url = url;
+        },
+        set_modalFacets(state, value){
+            state.modalFacets = value;
+        }
+    },
+    getters: {
+        repo(state){
+            return state.repo
+        },
+        url(state){
+            return state.url
+        },
+        modalFacets(state){
+            return state.modalFacets
+        },
+        base_url(state){
+            return state.base_url;
+        },
+        link_url(state){
+            return state.link_url;
+        },
+        share_url(state){
+            return state.share_url;
+        },
+        video_url(state){
+            return state.video_url;
+        }
+    },
+    actions: {
+        async get_data({ state, commit },send_url) {
+            //console.log(state.url);
+            await axios.get(state.url)
+               .then(response => {
+                   var repository = filter_data(response.data.response);
+                   commit('set_repo', repository);
+               })
+       }
+    }
+}

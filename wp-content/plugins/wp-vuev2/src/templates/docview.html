@@ -1,0 +1,150 @@
+<template id="docview">
+    <div class="col-sm-12 docs-view">
+        <div class="button-docs col-sm-12">
+            <button type="button" class="btn" v-if="keyword != undefined">
+                <router-link :to="'/search?keyword=' + keyword" style="color:black; font-style: normal; text-decoration: none;"> << {{$t('back_docs')}}
+                </router-link>
+            </button>
+            <button type="button" class="btn" v-if="keyword == undefined">
+                <router-link to="/search" style="color:black; font-style: normal; text-decoration: none;"> << {{$t('back_docs')}}
+                </router-link>
+            </button>
+        </div>
+        <div class="container" style="display: inline-flex;">        
+            <div class="row row-docs">
+                <div class="title-docs col-sm-12">
+                    <div class="title-docs">
+                        <h2>{{doc.title[0]}}</h2>
+                    </div>
+                </div>
+                <div class="col-md-9 pdf-content">                
+                    <div class="pdf-viewer" v-if="related != undefined">
+                        <input type="hidden" id="pdf_id" :value="this.$store.getters['principal/base_url'] + 'downloads/'+ related" />
+                        <iframe onload="read_pdfid()" id="pdf_iframe" src="/wp-content/plugins/wp-vue-bdcv/web/viewer.html#zoom=auto" width="50%" height="500px"></iframe>
+                        <a :href="this.$store.getters['principal/base_url'] + 'downloads/'+ related"><i class="fa fa-download download-link" aria-hidden="true"></i>&nbsp;{{ $t('down_label') }}</a>
+                        <!--<iframe onload="read_pdfid()" id="pdf_iframe" src="/wp-content/plugins/wp-vue-bdcv/web/viewer.html#zoom=page-fit" width="50%" height="500px"></iframe>-->
+                        <i id="clipboard-link" data-bs-toggle="tooltip" onclick="copyToClipboard()" class="fa fa-copy " :data-clipboard-text="this.url_share" data-bs-original-title="Copiar enlace" data-placement="bottom"> </i>
+                        <a class="facebook-link" target="_blank" :href="'https://www.facebook.com/sharer/sharer.php?quote=' + doc.title[0] + '&u=' + get_share_url()" ><i class="fa fa-facebook " aria-hidden="true"></i></a>
+                        <a class="facebook-link" target="_blank" :href="'https://twitter.com/intent/tweet?text=' + doc.title[0] + '&via=RDDM&url=' + get_share_url()" ><i class="fa fa-twitter " aria-hidden="true"></i></a>
+                    </div>
+                    <div class="pdf-viewer" v-if="related == undefined">
+                        <img class="img-responsive" :src="get_url() + thumbnail"/>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <table class="table table-metadatos">
+                        <tbody v-for="(metadata, key, index) in doc" v-if="filter_key(metadata,key)">
+                            <tr>
+                                <th>
+                                    {{ $t(key) }}
+                                </th>
+                            </tr>    
+                            <tr>
+                                <td v-if="typeof metadata == 'object'">
+                                    <p v-for="m in metadata">
+                                        <a :href="'/busqueda/#/search?type=' + key + '_sim&val=' + m +'&label=' + $t(key)">{{ m }}</a>
+                                    </p>
+                                </td>
+                                <td v-else>
+                                    <p>
+                                        {{ metadata }}
+                                    </p>
+                                </td>
+                            </tr>                    
+                        </tbody>
+                        <!--<tfoot>
+                            <tr v-if="related != undefined">
+                                <th>
+                                    {{ $t('download') }}
+                                </th>                            
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        <a
+                                            :href="this.$store.getters['principal/base_url'] + 'downloads/'+ related">{{ $t('down_label') }}</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tfoot>-->
+                    </table>
+                </div>
+                <!--<div class="col-sm-3 ">
+                        <img class="img-responsive" :src="this.$store.getters['principal/base_url'] + thumbnail">
+                </div>-->
+                <!--<div class=" doc-data table-docs" :class="[this.pdf_active ? 'pdf-active': 'img-active']">
+                    <div class="title-docs">
+                        <h3>{{doc.title[0]}}</h3>
+                    </div>
+                    <div class="pdf-viewer" v-if="related != undefined">
+                        <input type="hidden" id="pdf_id" :value="this.$store.getters['principal/base_url'] + 'downloads/'+ related" />
+                        <iframe onload="read_pdfid()" id="pdf_iframe" src="/wp-content/plugins/wp-vue-bdcv/web/viewer.html" width="50%" height="500px"></iframe>
+                        <!--<iframe onload="read_pdfid()" id="pdf_iframe" src="/wp-content/plugins/wp-vue-bdcv/web/viewer.html#zoom=page-fit" width="50%" height="500px"></iframe>-->
+                    <!--</div>
+                    <div class="pdf-viewer" v-if="related == undefined">
+                        <img class="img-responsive" :src="get_url() + thumbnail">
+                    </div>
+                    <table class="table table-metadatos">
+                        <tbody>
+                            <tr v-for="(metadata, key, index) in doc" v-if="filter_key(metadata,key)">
+                                <th>
+                                    {{ $t(key) }}
+                                </th>
+                                <td v-if="typeof metadata == 'object'">
+                                    <p v-for="m in metadata">
+                                        {{ m }}
+                                    </p>
+                                </td>
+                                <td v-else>
+                                    <p>
+                                        {{ metadata }}
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr v-if="related != undefined">
+                                <th>
+                                    {{ $t('download') }}
+                                </th>
+                                <td>
+                                    <p>
+                                        <a
+                                            :href="this.$store.getters['principal/base_url'] + 'downloads/'+ related">{{ $t('down_label') }}</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>-->
+                <div class="elements-title">Elementos</div>
+                <div class="row data-title">
+                    <div class="col-2">
+                        <strong>Miniatura</strong>
+                    </div>
+                    <div class="col-4">
+                        <strong>Título</strong>
+                    </div>
+                    <div class="col-3">
+                        <strong>Fecha de subida</strong>
+                    </div>
+                    <div class="col-3">
+                        <strong>Acciones</strong>
+                    </div>
+                </div>
+                <div class="row data-elements">
+                    <div class="col-2">
+                         <img class="img-responsive" :src="get_url() + thumbnail"/>
+                    </div>
+                    <div class="col-4">
+                        {{doc_prop.title[0]}}
+                    </div>
+                    <div class="col-3">
+                        {{doc_prop.date_uploaded}}
+                    </div>
+                    <div class="col-3">
+                        <a :href="this.$store.getters['principal/base_url'] + 'downloads/'+ related">{{ $t('down_label') }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,14 @@
+[09/Jun/2020:21:42:11] (I): WordPress Instance Info:
+[09/Jun/2020:21:42:11] (I): Home URL : http://rddm.colmex.mx
+[09/Jun/2020:21:42:11] (I): Site URL : http://rddm.colmex.mx
+[09/Jun/2020:21:42:11] (I): WordPress Version : 5.4.1
+[09/Jun/2020:21:42:11] (I): Onboarding Version : 1.0.1
+[09/Jun/2020:21:42:11] (I): Multisite : No
+[09/Jun/2020:21:42:11] (I): Server Info : Apache
+[09/Jun/2020:21:42:11] (I): PHP Version : 7.3.17
+[09/Jun/2020:21:42:11] (I): HTTPS : No
+[09/Jun/2020:21:42:11] (I): PHP Max Execution Time : 120
+[09/Jun/2020:21:42:11] (I): PHP Max Input Vars : 1000
+[09/Jun/2020:21:42:11] (I): Max Upload Size : 41943040
+[09/Jun/2020:21:42:11] (I): Plugins:
+[09/Jun/2020:21:42:11] (I): [PLUGIN] WPGlobus : v2.4.9 (WPGlobus)
